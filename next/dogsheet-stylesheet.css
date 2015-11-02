@@ -23,12 +23,12 @@ img {
 	position:fixed;
 	margin:5px;
 	left:50%;
-	margin-left:-254px;
+	margin-left:-250px;
 }
 
 #header {
 	position: relative;
-	top: 25px;
+	top: 35px;
 	background-color: #3c4543;
 	border-top-left-radius: 15px;
 	border-top-right-radius: 15px;
@@ -37,7 +37,7 @@ img {
 ul{
 	list-style-type: none;
 	position: fixed;
-	margin: -10px;
+	margin: 0px;
 }
 
 li {
@@ -53,8 +53,11 @@ li {
 
 #left{
 	/*Add your CSS here!*/
+	position:relative;
 	float:left;
+	top:20px;
 	width: 45%;
+	
 }
 
 p {
@@ -64,7 +67,9 @@ p {
 
 #right{
 	/*Add your CSS here!*/
+	position:relative;
 	float:right;
+	top:20px;
 	width:45%;
 }
 
@@ -107,7 +112,7 @@ th {
 	/*Add your CSS here!*/
 	clear:both;
 	position: relative;
-	bottom: -20px;
+	bottom: -25px;
 	border-bottom-left-radius: 15px;
 	border-bottom-right-radius: 15px;
 	height: 75px;
