@@ -1,0 +1,191 @@
+html, body {
+  margin: 0;
+}
+
+h1, h2, a {
+  font-family: 'Oswald', sans-serif;
+	text-transform:uppercase;
+}
+
+p {
+  font-family: Helvetica, Arial, sans-serif; 
+}
+
+div {
+	display:block;
+}
+
+/* Main */
+.main {
+  margin:0 auto;
+  height: 600px;
+  background:url(https://s3.amazonaws.com/codecademy-content/projects/move/bg.jpg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.main .container {
+	position:relative;
+  top: 100px;
+  max-width: 940px;
+  margin: 0 auto;
+  text-align:center;/**/
+}
+
+.btn-default {
+	background-color:#1c1c1c;
+  padding:10px 25px;
+  position:center;
+  text-decoration:none;
+  color:white;
+  transition:0.5s;
+}
+
+.main .container .btn-default:hover {
+	  transition:0.5s;
+  	background-color:orange;
+  }
+
+.main h1 {
+  font-size: 180px;
+  margin:0px;
+  color:white;
+  text-transform:uppercase;
+  text-align:center;
+  display:block;
+  font-weight: bold;
+}
+
+.main p {
+  font-size: 18px;
+  color:white;
+}
+
+/* Supporting */
+.supporting {
+  text-align: center;
+  background-color:#1c1c1c;
+  padding: 50px 0 80px;
+}
+
+.supporting .container {
+	max-width:940px;
+  margin:0 auto;
+  
+}
+
+.supporting .container .col {
+  float: left;
+  width: 28%;
+  padding: 10px;
+}
+
+.supporting h1,
+.supporting h2 {
+  color: #ffa800;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.supporting p {
+  color: #efefef;
+  margin-bottom: 20px;
+  line-height: 20px;
+  font-size: 12px;
+}
+
+.btn {
+  background-color: white;
+  color: #1c1c1c;
+  font-size: 18px;
+  padding: 8px 30px;
+  text-decoration: none;
+  display: inline-block;
+  transition:0.5s;
+}
+.btn:hover {
+	transition:0.5s;
+  background-color:orange;
+}
+
+/* Feature */
+.feature {
+  height: 600px;
+  background: url(https://s3.amazonaws.com/codecademy-content/projects/move/feature.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.feature .container {
+	max-width:940px;
+  margin:0 auto;
+  position: relative;
+  top:200px;
+}
+
+.feature .container h1,
+.feature .container h2 {
+  font-size: 40px;
+  margin: 0;
+  padding:50px;
+  text-align:center;
+  color:white;
+}
+
+/* Footer */
+.footer {
+  height: 600px;
+  background: url(https://s3.amazonaws.com/codecademy-content/projects/move/footer.jpg) no-repeat center center;
+  background-size:cover;
+  height:600px;
+  text-align:center;
+}
+
+.footer h1,
+.footer h2 {
+  color: #fff;
+  font-size: 40px;
+  margin: 0 0 20px 0;
+  padding:50px 0 0;
+}
+
+.footer p {
+  color: #fff;
+  margin: 0 0 20px 0;
+  font-size: 18px;
+}
+.footer .container {
+	max-width:940px;
+  margin:0 auto;
+  text-align:center;
+  top:200px;
+  position: relative;
+}
+
+@media (min-width:600px) {
+  .main h1 {
+    font-size: 200px;
+  }
+
+  .supporting .col {
+    width: 30%;
+  }
+
+  .supporting h2 {
+    font-size: 40px;
+  }
+
+  .supporting p {
+    font-size: 14px;
+  }
+
+  .feature h2 {
+    font-size: 60px;
+  }
+}
